@@ -1,7 +1,7 @@
 sjisunzip
 =========
 
-A rather stupid simple program to unbreak s-jis encoded filenames in a zip since nobody else seems to want to do it. I've tried python scripts, emulated environments, and nothing seems to work.
+This is a pretty braindead command line utility that simply forces the encoding to the right values to extract a Shift JIS encoded zip file ('[Code page 932](http://en.wikipedia.org/wiki/Code_page_932)') on a western/ansi encoding system.
 
 [Download Here](https://github.com/kjerk/sjisunzip/releases)
 
@@ -15,7 +15,7 @@ Examples:
   sjisunzip aFile.zip MyNewFolder
 ```
 
-If you've ever recieved a zip file from a friend or the wrong damn gnu mirror or whatever that passed through japan then you've probably seen garbled filenames
+If you've ever recieved a zip file from a friend or the wrong damn gnu mirror or whatever that passed through Japan then you've probably seen garbled filenames
 ![example_1](https://cloud.githubusercontent.com/assets/2738686/5326938/37acc0de-7ce7-11e4-8259-06ef8b1f43a8.jpg)
 ---
 
