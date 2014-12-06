@@ -3,6 +3,8 @@ sjisunzip
 
 A rather stupid simple program to unbreak s-jis encoded filenames in a zip since nobody else seems to want to do it. I've tried python scripts, emulated environments, and nothing seems to work.
 
+[Download Here](https://github.com/kjerk/sjisunzip/releases)
+
 ```
 Usage:
   sjisunzip someFile.zip [toFolder]
