@@ -15,6 +15,8 @@ Examples:
   sjisunzip aFile.zip MyNewFolder
 ```
 
+You can also just drop a zip file onto the program since that'll pass it as the first argument and the contents will be extracted in the same directory.
+
 If you've ever recieved a zip file from a friend or the wrong damn gnu mirror or whatever that passed through Japan then you've probably seen garbled filenames
 ![example_1](https://cloud.githubusercontent.com/assets/2738686/5326938/37acc0de-7ce7-11e4-8259-06ef8b1f43a8.jpg)
 ---
