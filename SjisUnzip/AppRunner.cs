@@ -7,7 +7,7 @@
 	{
 		static void Main(string[] args)
 		{
-			var mainApp = new SjisUnzipApplication();
+			var mainApp = new SjisUnzipApp();
 			mainApp.Main(args);
 		} 
 	}

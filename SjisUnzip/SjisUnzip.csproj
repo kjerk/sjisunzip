@@ -52,7 +52,7 @@
   <ItemGroup>
     <Compile Include="AppRunner.cs" />
     <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="SjisUnzipApplication.cs" />
+    <Compile Include="SjisUnzipApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

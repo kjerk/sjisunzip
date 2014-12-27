@@ -9,7 +9,7 @@ using System.IO.Compression;
 
 namespace SjisUnzip
 {
-	public class SjisUnzipApplication
+	public class SjisUnzipApp
 	{
 		private readonly Encoding sjisEncoding = Encoding.GetEncoding(932);
 
