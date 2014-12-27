@@ -17,7 +17,7 @@ Examples:
 
 You can also just drop a zip file onto the program since that'll pass it as the first argument and the contents will be extracted in the same directory.
 
-If you've ever recieved a zip file from a friend or the wrong damn gnu mirror or whatever that passed through Japan then you've probably seen garbled filenames
+If you've ever received a zip file from a friend, or the wrong damn gnu mirror or whatever that passed through Japan then you've probably seen garbled filenames
 ![example_1](https://cloud.githubusercontent.com/assets/2738686/5326938/37acc0de-7ce7-11e4-8259-06ef8b1f43a8.jpg)
 ---
 
@@ -31,3 +31,6 @@ You can even just reencode the zip file to a less busted-ass one so you don't ha
 
 The filenames and paths should be untangled when done.
 ![example_4](https://cloud.githubusercontent.com/assets/2738686/5326940/37af9d72-7ce7-11e4-8ee2-3a9d11c6e669.jpg)
+---
+
+Bonus fact: When this type of transitive corruption occurs, the output characters are called [Mojibake](http://en.wikipedia.org/wiki/Mojibake). That's almost cute enough to not be awful anymore.
