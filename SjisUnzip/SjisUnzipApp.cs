@@ -61,7 +61,7 @@ namespace SjisUnzip
 		{
 			"Writing to folder {0}...".wl(toFolder);
 
-			using (var zipFile = new ZipArchive(new FileStream(fileName, FileMode.Open), 
+			using (var zipFile = new ZipArchive(new FileStream(fileName, FileMode.Open, FileAccess.Read), 
 				ZipArchiveMode.Read, false, Encoding.GetEncoding(932)))
 			{
 				zipFile.ExtractToDirectory(toFolder);
